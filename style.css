@@ -29,6 +29,13 @@ header {
   flex-wrap: wrap-reverse;
 }
 
+header h1 {
+  margin-top: 20 px;
+  margin-bottom: 20px;
+  font-weight: 800;
+  color: #6ca3d9;
+}
+
 header h2 {
   margin-top: 20 px;
   margin-bottom: 20px;
