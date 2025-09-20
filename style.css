@@ -1,8 +1,72 @@
 root {
   --primary-color: #002638;
   --secondary-color: #002638;
+  --accent-color: rgba(75, 67, 138, 0.4);
   --text-color: #d3e1e8;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Segoe UI", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 12pt;
+  color: var(--text-color);
+  scroll-behavior: smooth;
+}
+
 body {
-  background-image: url("image/turned.png");
+  min-height: 100vh;
+  background-color: var(--primary-color);
+}
+
+header {
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap-reverse;
+}
+
+header h2 {
+  margin-top: 20 px;
+  margin-bottom: 20px;
+  font-weight: 800;
+  color: #6ca3d9;
+}
+
+header Restart {
+  display: inline-block;
+  background-color: var(--accent-color);
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 500;
+  border-radius: 1000px;
+  padding: 0.5em 1.25em;
+  text-decoration: none;
+  margin-bottom: 80px;
+  transition: 200ms ease;
+  cursor: pointer;
+}
+
+header .Restart:hover {
+  background-color: var(--secondary-color);
+}
+
+details .Restart-link {
+  display: inline-block;
+  margin-top: 30px;
+  background-color: var(--accent-color);
+  color: white;
+  padding: 0.75em 1.5em;
+  border-radius: 2px;
+  font-weight: 500;
+  transition: 300ms ease;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+details .Restart-link:hover {
+  background-color: var(--primary-color);
 }
