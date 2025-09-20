@@ -35,38 +35,3 @@ header h2 {
   font-weight: 800;
   color: #6ca3d9;
 }
-
-header Restart {
-  display: inline-block;
-  background-color: var(--accent-color);
-  color: white;
-  font-size: 1.25rem;
-  font-weight: 500;
-  border-radius: 1000px;
-  padding: 0.5em 1.25em;
-  text-decoration: none;
-  margin-bottom: 80px;
-  transition: 200ms ease;
-  cursor: pointer;
-}
-
-header .Restart:hover {
-  background-color: var(--secondary-color);
-}
-
-details .Restart-link {
-  display: inline-block;
-  margin-top: 30px;
-  background-color: var(--accent-color);
-  color: white;
-  padding: 0.75em 1.5em;
-  border-radius: 2px;
-  font-weight: 500;
-  transition: 300ms ease;
-  cursor: pointer;
-  text-decoration: none;
-}
-
-details .Restart-link:hover {
-  background-color: var(--primary-color);
-}
