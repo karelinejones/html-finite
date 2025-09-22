@@ -34,6 +34,91 @@ header h1 {
   margin-bottom: 20px;
   font-weight: 800;
   color: #6ca3d9;
+  text-align: center;
+}
+
+header .Blast-Off {
+  display: inline-block;
+  background-color: var(--secondary-color);
+  color: #6ca3d9;
+  font-size: 1.25rem;
+  font-weight: 500;
+  border-radius: 1000px;
+  padding: 0.5em 1.25em;
+  text-decoration: none;
+  text-align: center;
+}
+
+header .Restart {
+  display: inline-block;
+  background-color: var(--secondary-color);
+  color: #6ca3d9;
+  font-size: 1.25rem;
+  font-weight: 500;
+  border-radius: 1000px;
+  padding: 0.5em 1.25em;
+  text-decoration: none;
+  text-align: center;
+}
+
+header .Cautious {
+  display: inline-block;
+  background-color: var(--secondary-color);
+  color: #6ca3d9;
+  font-size: 1.25rem;
+  font-weight: 500;
+  border-radius: 1000px;
+  padding: 0.5em 1.25em;
+  text-decoration: none;
+  text-align: center;
+}
+
+header .Gunn-it {
+  display: inline-block;
+  background-color: var(--secondary-color);
+  color: #6ca3d9;
+  font-size: 1.25rem;
+  font-weight: 500;
+  border-radius: 1000px;
+  padding: 0.5em 1.25em;
+  text-decoration: none;
+  text-align: center;
+}
+
+header .Step-in {
+  display: inline-block;
+  background-color: var(--secondary-color);
+  color: #6ca3d9;
+  font-size: 1.25rem;
+  font-weight: 500;
+  border-radius: 1000px;
+  padding: 0.5em 1.25em;
+  text-decoration: none;
+  text-align: center;
+}
+
+header .Not-my-problem {
+  display: inline-block;
+  background-color: var(--secondary-color);
+  color: #6ca3d9;
+  font-size: 1.25rem;
+  font-weight: 500;
+  border-radius: 1000px;
+  padding: 0.5em 1.25em;
+  text-decoration: none;
+  text-align: center;
+}
+
+header .Go-back-Port {
+  display: inline-block;
+  background-color: var(--secondary-color);
+  color: #6ca3d9;
+  font-size: 1.25rem;
+  font-weight: 500;
+  border-radius: 1000px;
+  padding: 0.5em 1.25em;
+  text-decoration: none;
+  text-align: center;
 }
 
 header h2 {
@@ -41,4 +126,5 @@ header h2 {
   margin-bottom: 20px;
   font-weight: 800;
   color: #6ca3d9;
+  text-align: center;
 }
